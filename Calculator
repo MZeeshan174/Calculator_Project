@@ -1,2 +1,6 @@
 Console.WriteLine("Name: M Zeeshan Sardar");
 Console.WriteLine("Roll no : 24-ST-036");
+int num1 =Convert.ToInt32(Console.ReadLine());
+int num2 =Convert.ToInt32(Console.ReadLine());
+int addition  = num1 + num2;
+Console.WriteLine($"Addition:{addition}");
