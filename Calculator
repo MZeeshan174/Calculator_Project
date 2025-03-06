@@ -1,6 +1,11 @@
 Console.WriteLine("Name: M Zeeshan Sardar");
 Console.WriteLine("Roll no : 24-ST-036");
 
+int num1 =Convert.ToInt32(Console.ReadLine());
+int num2 =Convert.ToInt32(Console.ReadLine());
+int addition  = num1 + num2;
+Console.WriteLine($"result:{addition}");
+
 int num3 =Convert.ToInt32(Console.ReadLine());
 int num4 =Convert.ToInt32(Console.ReadLine());
 int subtraction = num3 -num4;
@@ -14,6 +19,8 @@ double num7 = Convert.ToInt32(Console.ReadLine());
 double mun8 = Convert.ToInt32(Console.ReadLine());
 double division = num7 / num8;
 Console.WriteLIne($"Result: {division}");
+
+
 
 
 
