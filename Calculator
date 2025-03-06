@@ -1,2 +1,6 @@
 Console.WriteLine("Name: M Zeeshan Sardar");
 Console.WriteLine("Roll no : 24-ST-036");
+int num3 =Convert.ToInt32(Console.ReadLine());
+int num4 =Convert.ToInt32(Console.ReadLine());
+int subtraction = num3 -num4;
+Console.WriteLine($"Sub: {subtraction});
